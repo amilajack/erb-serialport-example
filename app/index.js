@@ -1,11 +1,21 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
+import SerialPort from 'serialport/test';
+import serialport from 'serialport';
 import Root from './containers/Root';
 import { configureStore, history } from './store/configureStore';
 import './app.global.css';
 
 const store = configureStore();
+
+const MockBinding = SerialPort.Binding;
+
+console.log(serialport);
+
+// Create a port and enable the echo and recording.
+MockBinding.createPort('/dev/ROBOT', { echo: true, record: true });
+const port = new SerialPort('/dev/ROBOT');
 
 render(
   <AppContainer>
