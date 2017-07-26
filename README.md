@@ -12,3 +12,6 @@ cd app && yarn && cd ..
 yarn
 yarn dev
 ```
+
+### Note
+See [this commit](https://github.com/amilajack/erb-serialport-example/commit/df2533cfa44af28495692874cd5ef891f271d9d3) for the notable changes.
