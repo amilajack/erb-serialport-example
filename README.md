@@ -1,6 +1,8 @@
 erb-serialport-example
 ======================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/amilajack/erb-serialport-example.svg)](https://greenkeeper.io/)
+
 An example of using [electron-react-boilerplate](https://github.com/chentsulin/electron-react-boilerplate) with [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport).
 
 
