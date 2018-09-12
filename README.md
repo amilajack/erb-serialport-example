@@ -13,4 +13,4 @@ yarn dev
 
 ### Note
 
-See [this commit](https://github.com/amilajack/erb-serialport-example/commit/df2533cfa44af28495692874cd5ef891f271d9d3) for the notable changes.
+See [this commit](https://github.com/amilajack/erb-serialport-example/commit/76ffc8e2b4a9c636b391bfa66ad7d197f9cd5ef7) for the notable changes.
