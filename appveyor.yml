@@ -42,7 +42,7 @@ before_test:
 test_script:
   - node --version
   - yarn lint
-  - yarn package
+  - yarn package-ci
   - yarn test
   - yarn test-e2e
 

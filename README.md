@@ -1,5 +1,8 @@
 # erb-serialport-example
 
+[![Build Status](https://travis-ci.org/amilajack/erb-serialport-example.svg?branch=master&maxAge=2592)](https://travis-ci.org/amilajack/erb-serialport-example)
+[![Build status](https://ci.appveyor.com/api/projects/status/308wr1uc665qaoah/branch/master?svg=true)](https://ci.appveyor.com/project/amilajack/erb-serialport-example/branch/master)
+
 An example of using [electron-react-boilerplate](https://github.com/chentsulin/electron-react-boilerplate) with [serialport](https://github.com/EmergingTechnologyAdvisors/node-serialport).
 
 ### Installation
