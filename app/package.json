@@ -15,6 +15,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "serialport": "^7.0.2"
+    "serialport": "^9.0.0"
   }
 }
