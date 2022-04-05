@@ -12,3 +12,5 @@ npm start
 ```
 
 ### Note
+
+See [this commit](https://github.com/amilajack/erb-serialport-example/commit/ead7cbacb3f514f1bb4d1a9325b2a2301453813d) for the notable changes.
