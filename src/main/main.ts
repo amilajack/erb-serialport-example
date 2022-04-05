@@ -12,6 +12,7 @@ import path from 'path';
 import { app, BrowserWindow, shell, ipcMain } from 'electron';
 import { autoUpdater } from 'electron-updater';
 import log from 'electron-log';
+import { SerialPort } from 'serialport';
 import MenuBuilder from './menu';
 import { resolveHtmlPath } from './util';
 
@@ -22,6 +23,12 @@ export default class AppUpdater {
     autoUpdater.checkForUpdatesAndNotify();
   }
 }
+
+const port = new SerialPort({
+  path: '/dev/tty-usbserial1',
+  baudRate: 57600,
+});
+console.log(port);
 
 let mainWindow: BrowserWindow | null = null;
 
